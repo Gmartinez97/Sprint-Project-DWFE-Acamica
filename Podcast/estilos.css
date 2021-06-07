@@ -1,0 +1,46 @@
+* {
+    margin: auto 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px 100px 0px 100px;
+}
+
+.icono {
+    height: 36px;
+    width: 36px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+nav .menu ul li {
+    padding-top: 0;
+    display: inline-block;
+    margin-left: 48px;
+    margin-right: 100px;
+    position: relative;
+}
+
+header {
+    margin-top: 29px;
+    display: block;
+}
+
+header h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    height: 84px;
+    text-align: left;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 400;
+}
+
